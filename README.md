@@ -10,3 +10,7 @@ cd backend
 <p>initlize the both directtory with <code>npm i </code></p>
 
 <h2> Now Run the Project both directiory<br> <code>npm run dev</code></h2>
+
+PLease Edit your .env File
+
+<img src="image.png">
