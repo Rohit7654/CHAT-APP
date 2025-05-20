@@ -14,6 +14,7 @@ import { app, server } from "./lib/socket.js";
 dotenv.config();
 
 const PORT = process.env.PORT;
+console.log(PORT);
 const __dirname = path.resolve();
 
 app.use(express.json());
@@ -24,7 +25,6 @@ app.use(
     credentials: true,
   })
 );
-
 
 app.use("/api/auth", authRoutes);
 app.use("/api/messages", messageRoutes);
